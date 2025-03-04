@@ -1,0 +1,31 @@
+{
+  "name": "gemini-api",
+  "version": "1.0.0",
+  "description": "Gemini AI API Integration with Node.js",
+  "keywords": [
+    "nodejs",
+    "gemini",
+    "express",
+    "api"
+  ],
+  "homepage": "https://github.com/Mvory9/gemini-api#readme",
+  "bugs": {
+    "url": "https://github.com/Mvory9/gemini-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mvory9/gemini-api.git"
+  },
+  "license": "MIT",
+  "author": "Mvory9",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.23.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
